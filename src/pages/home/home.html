@@ -8,7 +8,7 @@
 
 <ion-content padding>
 
-  <ion-textarea type="text" ng-model="readtext" placeholder="Type your text here to read" ></ion-textarea>
+  <ion-textarea type="text" [(ngModel)]="readtext" placeholder="Type your text here to read" ></ion-textarea>
   <button ion-button (click)="read()">Read Aloud</button>
 
 </ion-content>

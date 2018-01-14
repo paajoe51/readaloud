@@ -14,7 +14,7 @@ export class HomePage {
     }
 
     read(){
-      this.tts.speak("In the begining was the word, and the word was God, and the word was with God.")
+      this.tts.speak(this.readtext)
         .then(() => alert("done reading"))
           
 
