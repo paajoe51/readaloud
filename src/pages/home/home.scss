@@ -3,9 +3,19 @@ page-home {
         text-align: center;
     }
     .read {
-        border: 2px solid green;
+        border: 2px solid goldenrod;
         margin-top: 53px;
-        margin-left: 90px;
-        ;
+        margin-left: 120px;
+        background-image: url(../assets/imgs/icon.png)
+    }
+    .tarea {
+        border: 0px solid maroon;
+        margin-top: 53px;
+    }
+    ion-content {
+        background-image: url(../assets/imgs/kk.jpg);
+    }
+    .ba {
+        background-image: url(../assets/imgs/icon.png);
     }
 }
