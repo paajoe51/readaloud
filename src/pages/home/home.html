@@ -1,14 +1,15 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-     <ion-icon name ="microphone"></ion-icon> Read Aloud <ion-icon name ="volume-up"></ion-icon>
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            <ion-icon name="microphone"></ion-icon> Read Aloud
+            <ion-icon name="volume-up"></ion-icon>
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content class="padding">
 
-  <ion-textarea type="text" [(ngModel)]="readtext" placeholder="Type your text here to read" ></ion-textarea>
-  <button ion-button (click)="read()">Read Aloud</button>
+    <ion-textarea type="text" [(ngModel)]="readtext" placeholder="Type your text here to read"></ion-textarea>
+    <button ion-button (click)="read()">Read Aloud</button>
 
 </ion-content>
